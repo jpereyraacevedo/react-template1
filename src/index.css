@@ -8,3 +8,8 @@ body {
   font-family: 'Sen', sans-serif;
   color: #fff;
 }
+
+a {
+  text-decoration: none;
+  color: #fff;;
+}
