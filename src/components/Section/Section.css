@@ -1,0 +1,24 @@
+.bg-img-section {
+  height: 550px;
+  background-image: url(../../assets/section.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 35%;
+}
+
+.section-title {
+    font-size: 45px;
+}
+
+.section-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+.subcontainer-section {
+    width: 45%;
+    text-align: end;
+}
