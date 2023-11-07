@@ -1,16 +1,20 @@
 header {
-    background-color: rgb(203, 101, 101);
-    height: 75px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
+  background-color: rgb(203, 101, 101);
+  height: 75px;
 }
 
 ul li {
-    display: inline-block;
-    margin: 5px 10px;
+  display: inline-block;
+  margin: 5px 10px;
+}
+
+.nav {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo {
-    height: 45px;
+  height: 45px;
 }

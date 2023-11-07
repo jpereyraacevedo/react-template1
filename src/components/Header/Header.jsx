@@ -1,20 +1,32 @@
 import React from "react";
-import "./Header.css"
-import logo from "../../assets/icons8-logo-24.png"
+import "./Header.css";
+import logo from "../../assets/icons8-logo-24.png";
 
 export const Header = () => {
   return (
     <header>
-      <img src={logo} alt="" className="logo" />
-      <nav>
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">Donate</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+      <div className="container nav">
+        <img src={logo} alt="" className="logo" />
+        <nav>
+          <ul>
+            <li>
+              <a href="#">Home</a>
+            </li>
+            <li>
+              <a href="#">About</a>
+            </li>
+            <li>
+              <a href="#">Shop</a>
+            </li>
+            <li>
+              <a href="#">Donate</a>
+            </li>
+            <li>
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
   );
 };
