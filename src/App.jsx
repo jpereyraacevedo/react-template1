@@ -1,5 +1,6 @@
 import { Header } from './components/Header/Header'
 import { Hero } from './components/Hero/Hero'
+import { StartSection } from './components/StartSection/StartSection'
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Header />
       <Hero />
+      <StartSection />
     </>
   )
 }

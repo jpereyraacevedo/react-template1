@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import logo from "../../assets/icons8-logo-24.png";
+import logo from "../../assets/logo.svg";
 
 export const Header = () => {
   return (
