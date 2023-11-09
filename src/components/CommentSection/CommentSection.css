@@ -1,0 +1,44 @@
+.comment-section {
+  height: 470px;
+  margin: 40px 0;
+  display: flex;
+}
+
+.comment-box {
+  width: 80%;
+  background: #222;
+  border-radius: 5px;
+  padding: 65px;
+  display: flex;
+  justify-content: left;
+  position: relative;
+  right: 5%;
+  z-index: -1;
+}
+
+.comment-title {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.comment-img {
+  width: 30%;
+  height: 440px !important;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.comment-text {
+  padding: 0 145px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.comment-paragraph {
+  padding: 0 0 10px 0;
+}
+
+.remark {
+  font-weight: 700;
+}
