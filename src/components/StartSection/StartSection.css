@@ -11,7 +11,7 @@
 }
 
 .support-intro div {
-    width: 50%;
+  width: 50%;
 }
 
 .support-title {
@@ -43,24 +43,26 @@
 }
 
 .card-number {
-    font-size: 40px;
+  font-size: 40px;
 }
 
-.card, .card-paragraph {
-    margin-bottom: 40px;
+.card,
+.card-paragraph {
+  margin-bottom: 40px;
 }
 
 .card-title {
-    font-size: 40px;
-    text-align: center;
+  font-size: 40px;
+  text-align: center;
 }
 
-.card p, img{
-    max-height: 33%;
+.card p,
+.card-svg {
+  max-height: 33%;
 }
 
 .card img {
-    position: relative;
-    top: 50px;
-    left: 125px;
+  position: relative;
+  top: 50px;
+  left: 125px;
 }
