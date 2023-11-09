@@ -26,16 +26,16 @@
 }
 
 .hero-btn {
-    display: inline-block;
-    padding: 5px 25px;
-    margin: 5px 0;
-    border: 1px solid #fff;
-    border-radius: 5px;
-    cursor: pointer;
-    font-weight: 700;
+  display: inline-block;
+  padding: 5px 25px;
+  margin: 5px 0;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
 }
 
 .hero-btn:hover {
-    background-color: #fff;
-    color: #000;
+  background-color: #fff;
+  color: #000;
 }
