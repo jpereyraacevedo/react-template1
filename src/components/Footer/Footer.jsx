@@ -12,9 +12,9 @@ export const Footer = () => {
         <div className="footer">
           <img src={logo} alt="" className="logo" />
           <div className="redes">
-            <img src={facebook} alt="" />
-            <img src={twitter} alt="" />
-            <img src={instagram} alt="" />
+            <img src={facebook} alt="Facebook Logo" />
+            <img src={twitter} alt="Twitter Logo" />
+            <img src={instagram} alt="Instagram Logo" />
           </div>
         </div>
         <p className="footer-end">Created by <span className="name">JP dev</span>. © 2023</p>
